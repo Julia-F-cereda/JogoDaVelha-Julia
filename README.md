@@ -37,4 +37,4 @@ Antes de começar, você precisará ter instalado em sua máquina o [Node.js](ht
 
 1. **Clonar este repositório:**
    ```bash
-   git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
+   git clone https://github.com/Julia-F-cereda/JogoDaVelha-Julia
