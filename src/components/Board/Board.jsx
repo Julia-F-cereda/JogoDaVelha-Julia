@@ -1,5 +1,6 @@
 import { calculateWinner } from "../../utils/calculateWinner";
 import Square from "../Square/Square";
+import styles from './Board.module.css'
 
 export default function Board({ xIsNext, squares, onPlay }) {
   function handleClick(i) {
@@ -25,8 +26,8 @@ export default function Board({ xIsNext, squares, onPlay }) {
 
   return (
     <>
-      <div className="status">{status}</div>
-      <div className="board-row">
+      <div className={styles.board}>{status}</div>
+      <div className={styles.board__row}>
         <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
         <Square value={squares[1]} onSquareClick={() => handleClick(1)} />
         <Square value={squares[2]} onSquareClick={() => handleClick(2)} />

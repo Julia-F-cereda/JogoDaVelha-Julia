@@ -1,0 +1,14 @@
+/* App.module.css */
+.game {
+  /* Define a cor de fundo de toda a tela */
+  background-color: #8fccdb; 
+  
+  /* Faz o container ocupar a altura total da janela do navegador */
+  min-height: 100vh; 
+  
+  /* O "mágica" do Flexbox para centralizar tudo */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza na vertical */
+  align-items: center;     /* Centraliza na horizontal */
+}

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Board from './components/Board/Board';
+import styles from './App.module.css';
 
 
 
@@ -39,7 +40,7 @@ export default function Game() {
   });
 
   return (
-    <div className="game">
+    <div className={styles.game}>
       <div className="game-board">
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
